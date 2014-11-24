@@ -34,21 +34,21 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 To customize your shortcut you can use the following properties:
 
 ```objectivec
-		ARHomeScreenShortcuts *shortcut = [[ARHomeScreenShortcuts alloc] init];
+    ARHomeScreenShortcuts *shortcut = [[ARHomeScreenShortcuts alloc] init];
 		
     shortcut.title = @"Shortcut Title";
 		
     shortcut.icon = [UIImage imageNamed:@"ShortcutIcon"];
 		
-		shortcut.urlScheme = @"myapp";
+    shortcut.urlScheme = @"myapp";
 		
-		shortcut.action = @"open"
+    shortcut.action = @"open"
 		
     shortcut.parameters = @{@"id" : @"my_identifier"};
 		
     [shortcut.replacementDictionary setObject:@"<div>INSTALL ME</div>" forKey:@"<REPLACEMENT_EXAMPLE>"];
 		
-    [homeScreenShortcuts installShortcut];
+    [shortcut installShortcut];
 ```
 
 To customize the installation HTML, copy [ARHomeScreenShortcuts.html](http://github.com/alexruperez/ARHomeScreenShortcuts/blob/master/Pod/Assets/ARHomeScreenShortcuts.html) file to your proyect.
