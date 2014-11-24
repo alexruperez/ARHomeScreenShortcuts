@@ -1,0 +1,9 @@
+# reference: http://www.objc.io/issue-6/travis-ci.html
+
+language: objective-c
+# before_install: cd Example && pod install && cd -
+before_install:
+  - brew update
+  - if brew outdated | grep -qx xctool; then brew upgrade xctool; fi
+script:
+- xctool test -workspace Example/ARHomeScreenShortcuts.xcworkspace -scheme ARHomeScreenShortcuts -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO

@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="apple-mobile-web-app-capable" content="no" />
+    <title><ARHSS_HEAD_TITLE></title>
+    <link rel="apple-touch-icon-precomposed" href="data:image/png;base64,<ARHSS_B64_ICON>" />
+</head>
+
+<body>
+    <a id="redirect" href="<ARHSS_FULL_SCHEME>"></a>
+</body>
+
+</html>
+
+<script type="text/javascript">
+function jump() {
+    var e = document.getElementById('redirect');
+    var ev = document.createEvent('MouseEvents');
+    ev.initEvent('click', true, true, document.defaultView, 1, 0, 0, 0, 0, false, false, false, false, 0, null);
+    e.dispatchEvent(ev);
+    window.close();
+}
+if (("standalone" in window.navigator) && window.navigator.standalone) {
+    jump();
+} else {
+    var time = <ARHSS_TIME_INTERVAL>;
+    var timeout = new Date().getTime() / 1000;
+    if (timeout > time + 8) {
+        jump();
+    }
+}
+</script>

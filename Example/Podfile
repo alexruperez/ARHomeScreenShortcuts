@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'ARHomeScreenShortcuts', :exclusive => true do
+  pod "ARHomeScreenShortcuts", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "ARHomeScreenShortcuts", :path => "../"
+end
