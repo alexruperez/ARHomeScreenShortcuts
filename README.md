@@ -51,7 +51,7 @@ To customize your shortcut you can use the following properties:
     [homeScreenShortcuts installShortcut];
 ```
 
-To customize the installation HTML, copy [ARHomeScreenShortcuts.html](http://github.com/alexruperez/ARHomeScreenShortcuts/blob/master/ARHomeScreenShortcuts.html) file to your proyect.
+To customize the installation HTML, copy [ARHomeScreenShortcuts.html](http://github.com/alexruperez/ARHomeScreenShortcuts/blob/master/Pod/Assets/ARHomeScreenShortcuts.html) file to your proyect.
 
 # Etc.
 
