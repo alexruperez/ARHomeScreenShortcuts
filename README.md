@@ -7,7 +7,7 @@
 [![Version](https://img.shields.io/cocoapods/v/ARHomeScreenShortcuts.svg?style=flat)](http://cocoadocs.org/docsets/ARHomeScreenShortcuts)
 [![License](https://img.shields.io/cocoapods/l/ARHomeScreenShortcuts.svg?style=flat)](http://cocoadocs.org/docsets/ARHomeScreenShortcuts)
 [![Platform](https://img.shields.io/cocoapods/p/ARHomeScreenShortcuts.svg?style=flat)](http://cocoadocs.org/docsets/ARHomeScreenShortcuts)
-[![Dependency Status](https://www.versioneye.com/user/projects/547358279dcf6d51d80016a7/badge.svg?style=flat)](https://www.versioneye.com/user/projects/547358279dcf6d51d80016a7)
+[![Dependency Status](https://www.versioneye.com/objective-c/arhomescreenshortcuts/0.1.0/badge.svg?style=flat)](https://www.versioneye.com/objective-c/arhomescreenshortcuts/0.1.0)
 [![Analytics](https://ga-beacon.appspot.com/UA-55329295-1/ARHomeScreenShortcuts/readme?pixel)](https://github.com/igrigorik/ga-beacon)
 
 ## Overview
