@@ -79,7 +79,7 @@ extern NSString* const GCDWebServerOption_Port;
  *  the name will automatically take the value of the GCDWebServerOption_ServerName
  *  option. If this option is set to nil, Bonjour will be disabled.
  *
- *  The default value is an empty string.
+ *  The default value is nil.
  */
 extern NSString* const GCDWebServerOption_BonjourName;
 
@@ -89,6 +89,17 @@ extern NSString* const GCDWebServerOption_BonjourName;
  *  The default value is "_http._tcp", the service type for HTTP web servers.
  */
 extern NSString* const GCDWebServerOption_BonjourType;
+
+/**
+ *  Only accept HTTP requests coming from localhost i.e. not from the outside
+ *  network (NSNumber / BOOL).
+ *
+ *  The default value is NO.
+ *
+ *  @warning Bonjour should be disabled if using this option since the server
+ *  will not be reachable from the outside network anyway.
+ */
+extern NSString* const GCDWebServerOption_BindToLocalhost;
 
 /**
  *  The maximum number of incoming HTTP requests that can be queued waiting to
@@ -512,6 +523,14 @@ extern NSString* const GCDWebServerAuthenticationMethod_DigestAccess;
  *
  *  @warning The interpretation of the "level" argument depends on the logging
  *  facility used at compile time.
+ *
+ *  If using the built-in logging facility, the log levels are as follow:
+ *  DEBUG = 0
+ *  VERBOSE = 1
+ *  INFO = 2
+ *  WARNING = 3
+ *  ERROR = 4
+ *  EXCEPTION = 5
  */
 + (void)setLogLevel:(int)level;
 
