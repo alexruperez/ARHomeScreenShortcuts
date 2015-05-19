@@ -1,6 +1,5 @@
 # ARHomeScreenShortcuts
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/alexruperez/ARHomeScreenShortcuts?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 [![Twitter](http://img.shields.io/badge/contact-@alexruperez-blue.svg?style=flat)](http://twitter.com/alexruperez)
 [![GitHub Issues](http://img.shields.io/github/issues/alexruperez/ARHomeScreenShortcuts.svg?style=flat)](http://github.com/alexruperez/ARHomeScreenShortcuts/issues)
 [![CI Status](http://img.shields.io/travis/alexruperez/ARHomeScreenShortcuts.svg?style=flat)](https://travis-ci.org/alexruperez/ARHomeScreenShortcuts)
