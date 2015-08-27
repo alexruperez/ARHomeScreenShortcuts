@@ -1,19 +1,19 @@
 PODS:
   - ARHomeScreenShortcuts (0.1.0):
     - GCDWebServer (~> 3.2)
-  - GCDWebServer (3.2.4):
-    - GCDWebServer/Core (= 3.2.4)
-  - GCDWebServer/Core (3.2.4)
+  - GCDWebServer (3.2.5):
+    - GCDWebServer/Core (= 3.2.5)
+  - GCDWebServer/Core (3.2.5)
 
 DEPENDENCIES:
   - ARHomeScreenShortcuts (from `../`)
 
 EXTERNAL SOURCES:
   ARHomeScreenShortcuts:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  ARHomeScreenShortcuts: b9fc70bf9b55fc8673775ae13120ebb2fa86ab75
-  GCDWebServer: fcf45931c2fec08ec89939b12251b5be98c4aaa4
+  ARHomeScreenShortcuts: ae63f497fb641eb3ae3594bb22ca4c50d92f82a9
+  GCDWebServer: d0e1b23785e3dfd6c87601323d0f7cae059aab18
 
-COCOAPODS: 0.35.0
+COCOAPODS: 0.38.2

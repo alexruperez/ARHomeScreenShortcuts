@@ -2,7 +2,7 @@
   "name": "ARHomeScreenShortcuts",
   "version": "0.1.0",
   "summary": "Installs home screen shortcuts to features of your app.",
-  "description": "                       ARHomeScreenShortcuts installs home screen shortcuts to features of your app like [OneTap](https://itunes.apple.com/us/app/onetap/id502840938) or [Facebook Groups](https://itunes.apple.com/us/app/facebook-groups/id931735837).\n",
+  "description": "ARHomeScreenShortcuts installs home screen shortcuts to features of your app like [OneTap](https://itunes.apple.com/us/app/onetap/id502840938) or [Facebook Groups](https://itunes.apple.com/us/app/facebook-groups/id931735837).",
   "homepage": "https://github.com/alexruperez/ARHomeScreenShortcuts",
   "license": "MIT",
   "authors": {
